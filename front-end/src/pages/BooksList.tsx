@@ -6,7 +6,7 @@ type BooksListProp = {
 }
 const BooksList = ({children}:BooksListProp) => {
   return (
-    <div className="grid mt-6 mx-auto md:grid-cols-2 lg:grid-cols-3 gap-x-6 lg:space-y-0">
+    <div className="px-4 flex flex-wrap mt-6 mx-auto justify-center gap-6 lg:space-y-0">
         {children}
     </div>
   )
