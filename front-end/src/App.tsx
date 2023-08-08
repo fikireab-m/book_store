@@ -1,9 +1,22 @@
-import './App.css'
+import Card from './components/Card'
+import Header from './components/Header'
+import BooksList from './pages/BooksList'
 
 function App() {
   return (
     <>
-      <div>Hello</div>
+      <Header title='Book Store' />
+      <BooksList>
+        <Card title='Font-end Development' price={20} />
+        <Card title='Font-end Development' price={20} />
+        <Card title='Font-end Development' price={20} />
+        <Card title='Font-end Development' price={20} />
+        <Card title='Font-end Development' price={20} />
+        <Card title='Font-end Development' price={20} />
+        <Card title='Font-end Development' price={20} />
+        <Card title='Font-end Development' price={20} />
+        <Card title='Font-end Development' price={20} />
+      </BooksList>
     </>
   )
 }
